@@ -1,0 +1,33 @@
+//LOCAL
+spark-submit \
+  --class retail_db.GetRevenuePerOrder \
+  "spark2demo_2.11-0.1.jar" \
+   local \
+   /home/user2/data-master/input/order_items \
+   /home/user2/data-master/output/revenue_per_order
+
+
+//1)LOGIN IN THE CLUSTER MASTER NODE
+
+//2) YARN-CLIENT
+spark-submit \
+  --class retail_db.GetRevenuePerOrder \
+  --master yarn
+  --deploy-mode client \
+  --conf spark.ui.port=12678
+  "spark2demo_2.11-0.1.jar" \
+   yarn-client \
+   /home/user2/data-master/input/order_items \
+   /home/user2/data-master/output/revenue_per_order
+
+
+//3) YARN-CLUSTER (USE DISTRIBUTED FILE SYSTEM like HDFS)
+spark-submit \
+  --class retail_db.GetRevenuePerOrder \
+  --master yarn
+  --deploy-mode cluster \
+  --conf spark.ui.port=12678
+  "spark2demo_2.11-0.1.jar" \
+   yarn-cluster \
+   "hdfs://masternode:8020/user2/data-master/input/order_items" \ 
+   "hdfs://masternode:8020/user2/data-master/output/revenue_per_order"

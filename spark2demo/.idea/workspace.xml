@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34b837a7-b10d-46f6-8bfe-7009f15ae1ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/retail_db/GetRevenueForOrderUsingParallelize.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/retail_db/WholeTextFilesExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-shell/spark-shell.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-shell/spark-shell.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/retail_db_list/GetRevenueForOder.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/retail_db_list/GetRevenueForOder.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetRevenueForOrderUsingParallelize">
+  <component name="RunManager" selected="Application.WholeTextFilesExample">
     <configuration name="GetRevenueForOder" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="retail_db_list.GetRevenueForOder" />
       <module name="spark2demo" />
@@ -95,13 +94,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WholeTextFilesExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="retail_db.WholeTextFilesExample" />
+      <module name="spark2demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="retail_db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.GetRevenueForOder" />
       <item itemvalue="Application.HelloWorld" />
       <item itemvalue="Application.GetRevenueForOrderUsingParallelize" />
+      <item itemvalue="Application.WholeTextFilesExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WholeTextFilesExample" />
         <item itemvalue="Application.GetRevenueForOrderUsingParallelize" />
         <item itemvalue="Application.GetRevenueForOder" />
         <item itemvalue="Application.HelloWorld" />

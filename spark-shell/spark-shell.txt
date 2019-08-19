@@ -1,3 +1,5 @@
+....
+
     val orderItems = sc.textFile("/home/user2/data-master/input/order_items")
     val revenuePerOrder = orderItems.
 		map(oi =>(oi.split(",")(1).toInt, oi.split(",")(4).toFloat)).
@@ -5,3 +7,9 @@
       	map(oi => oi._1 + "," + oi._2)
 
     revenuePerOrder.take(10).foreach(println)
+
+....
+$ spark-shell --master yarn --deploy-mode client --conf spark.ui.port=12678
+
+....
+

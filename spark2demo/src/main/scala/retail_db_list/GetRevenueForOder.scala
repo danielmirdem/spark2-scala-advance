@@ -16,5 +16,17 @@ object GetRevenueForOder {
 
     orderItemsFiltered foreach println
 
+    println("--------------")
+
+    val orderItemsSubtotals = orderItemsFiltered.
+      map(e=> e.split(",")(4).toFloat)
+    orderItemsSubtotals.foreach(println)
+
+    println("--------------")
+
+    val orderRevenue = orderItemsSubtotals.reduce((curr, next) => curr + next)
+
+    println("Order revenue for order id " + orderId + " is " + orderRevenue)
+
   }
 }

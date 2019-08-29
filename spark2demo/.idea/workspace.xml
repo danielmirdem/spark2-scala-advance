@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34b837a7-b10d-46f6-8bfe-7009f15ae1ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/retail_db/SequenceFileExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/retail_db/ObjectFileExample.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,6 +30,13 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -125,8 +132,8 @@
       <item itemvalue="Application.GetRevenueForOder" />
       <item itemvalue="Application.GetRevenueForOrderUsingParallelize" />
       <item itemvalue="Application.WholeTextFilesExample" />
-      <item itemvalue="Scala Console.Scala Console" />
       <item itemvalue="Application.SequenceFileExample" />
+      <item itemvalue="Scala Console.Scala Console" />
     </list>
     <recent_temporary>
       <list>

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34b837a7-b10d-46f6-8bfe-7009f15ae1ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/retail_db/ObjectFileExample.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

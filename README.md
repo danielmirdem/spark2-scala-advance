@@ -5,7 +5,7 @@
 
 ![Test Image 1](cluster-overview.png)
 
-# Spark Architecture Diagram 2
+# Spark - hadoop
 
 ![Test Image 1](image001.png)
 
